@@ -1,13 +1,13 @@
 import os
 import shutil
 
-EXTENSION_MAP = {
+EXTENSION_MAP = { 
     'Documents': ['.pdf', '.docx', '.txt'],
     'Images': ['.jpg', '.jpeg', '.png', '.gif'],
     'Videos': ['.mp4', '.mov'],
     'Code': ['.py', '.js', '.html', '.css'],
     'Archives': ['.zip', '.rar', '.tar.gz'],
-}
+} # Example only — editable
 
 def get_destination_folder(extension):
     for folder, ext in EXTENSION_MAP.items():
