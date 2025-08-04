@@ -8,8 +8,9 @@ if __name__ == "__main__":
         home_path = os.path.expanduser('~')
         folder_path = filedialog.askdirectory(initialdir=home_path)
 
-        organize_files(folder_path)
+        organize_files(folder_path) 
         print(f"Files organized in: {folder_path}")
 
     except Exception as error: 
+        # if some error happens, shows in terminal
         print(f"ERROR: {error}")
