@@ -8,7 +8,7 @@ EXTENSION_MAP = { # example only —> editable
     'Videos': ['.mp4', '.mov'],
     'Code': ['.py', '.js', '.html', '.css'],
     'Archives': ['.zip', '.rar', '.tar.gz'],
-}
+} # Example only — editable
 
 def get_destination_folder(extension):
     # check which folder matches the file extension
